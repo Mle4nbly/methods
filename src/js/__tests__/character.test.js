@@ -27,7 +27,7 @@ test('Метод levelUp() работает правильно', () => {
         level: 2,
         attack: 30,
         defence: 25,
-    }
+    };
     char.levelUp();
 
     expect(char).toEqual(hero);
